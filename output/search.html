@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en" prefix="og: http://ogp.me/ns# fb: https://www.facebook.com/2008/fbml">
 <head>
-    <title>First Post - Part 1 - Jupyter tricks</title>
+    <title>Search - Jupyter tricks
+</title>
     <!-- Using the latest rendering mode for IE -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
@@ -173,23 +174,15 @@ init_mathjax = function() {
 init_mathjax();
 </script>
 
-<link rel="canonical" href="/first-post.html">
 
-        <meta name="author" content="Wouter Dierckx" />
-        <meta name="keywords" content="python,markdown,blog" />
-        <meta name="description" content="This is the first post in a series." />
+        <meta name="author" content="WouterDX" />
 
+    <!-- Open Graph tags -->
         <meta property="og:site_name" content="Jupyter tricks" />
-        <meta property="og:type" content="article"/>
-        <meta property="og:title" content="First Post - Part 1"/>
-        <meta property="og:url" content="/first-post.html"/>
-        <meta property="og:description" content="This is the first post in a series."/>
-        <meta property="article:published_time" content="2018-04-29" />
-            <meta property="article:section" content="example posts" />
-            <meta property="article:tag" content="python" />
-            <meta property="article:tag" content="markdown" />
-            <meta property="article:tag" content="blog" />
-            <meta property="article:author" content="Wouter Dierckx" />
+        <meta property="og:type" content="website"/>
+        <meta property="og:title" content="Jupyter tricks"/>
+        <meta property="og:url" content=""/>
+        <meta property="og:description" content="Jupyter tricks"/>
 
 
 
@@ -223,7 +216,7 @@ Jupyter tricks            </a>
         </div>
         <div class="collapse navbar-collapse navbar-ex1-collapse">
             <ul class="nav navbar-nav">
-                        <li class="active">
+                        <li >
                             <a href="/category/example-posts.html">Example posts</a>
                         </li>
             </ul>
@@ -246,54 +239,7 @@ Jupyter tricks            </a>
 <div class="container">
     <div class="row">
         <div class="col-sm-9">
-    <section id="content">
-        <article>
-            <header class="page-header">
-                <h1>
-                    <a href="/first-post.html"
-                       rel="bookmark"
-                       title="Permalink to First Post - Part 1">
-                        First Post - Part 1
-                    </a>
-                </h1>
-            </header>
-            <div class="entry-content">
-                <div class="panel">
-                    <div class="panel-body">
-<footer class="post-info">
-    <span class="label label-default">Date</span>
-    <span class="published">
-        <i class="fa fa-calendar"></i><time datetime="2018-04-29T22:01:00+02:00"> zo 29 april 2018</time>
-    </span>
-
-
-
-
-
-<span class="label label-default">Tags</span>
-	<a href="/tag/python.html">python</a>
-        /
-	<a href="/tag/markdown.html">markdown</a>
-        /
-	<a href="/tag/blog.html">blog</a>
-    
-</footer><!-- /.post-info -->                    </div>
-                </div>
-                <p>This is the very first post!</p>
-            </div>
-            <!-- /.entry-content -->
-<section class="well" id="related-posts">
-    <h4>Part 1 of the example-series series</h4>
-       <h5>Next articles</h5>
-       <ul>
-           <li><a href="/second-post.html">First Post - Part 2</a></li>
-           <li><a href="/third-post.html">First Post - Part 3</a></li>
-           <li><a href="/fourth-post.html">First Post - Part 4</a></li>
-       </ul>
-</section>
-        </article>
-    </section>
-
+<div id="tipue_search_content"></div>
         </div>
         <div class="col-sm-3" id="sidebar">
             <aside>
@@ -398,5 +344,17 @@ jQuery(document).ready(function($) {
 });
 });
 </script>
+    <script type="text/javascript" src="/theme/tipuesearch/tipuesearch_set.js"></script>
+    <script type="text/javascript" src="/theme/tipuesearch/tipuesearch.min.js"></script>
+    <script>
+    $(document).ready(function() {
+      $('#tipue_search_input').tipuesearch({
+        'mode' : 'json',
+        'show': 10,
+        'newWindow': false,
+        'contentLocation': 'tipuesearch_content.json'
+      });
+    });
+    </script>
 </body>
 </html>

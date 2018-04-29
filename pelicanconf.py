@@ -15,14 +15,29 @@ DEFAULT_LANG = 'en' #crashes if not in translation and diffrent fromt I18N setti
 # Pelican theme setup
 THEME = 'pelican-themes/pelican-bootstrap3'
 BOOTSTRAP_THEME = 'flatly'
+#THEME = 'greizgh/pelican-material' #needs more plugins first
+
+# PLUGINS
 JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n']}
 PLUGIN_PATHS = ['pelican-plugins']
-PLUGINS = ['i18n_subsites']
+PLUGINS = [
+	'i18n_subsites',
+	'series',
+	'tag_cloud',
+    'liquid_tags.youtube',
+    'liquid_tags.notebook',
+    'liquid_tags.include_code',
+    'render_math',
+    'pelican-ipynb.markup' 
+	]
+
+# I18N CONFIG
 #I18N_TEMPLATES_LANG = 'nl' #dutch language code
 I18N_TEMPLATES_LANG = 'en' #same as default language code
 
+# Jupyter markup config
+IGNORE_FILES = ['.ipynb']
 
-#THEME = 'greizgh/pelican-material' #needs more plugins first
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None

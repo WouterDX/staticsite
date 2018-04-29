@@ -10,7 +10,19 @@ PATH = 'content'
 
 TIMEZONE = 'Europe/Paris'
 
-DEFAULT_LANG = 'Dutch'
+DEFAULT_LANG = 'en' #crashes if not in translation and diffrent fromt I18N settings.
+
+# Pelican theme setup
+THEME = 'pelican-themes/pelican-bootstrap3'
+BOOTSTRAP_THEME = 'flatly'
+JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n']}
+PLUGIN_PATHS = ['pelican-plugins']
+PLUGINS = ['i18n_subsites']
+#I18N_TEMPLATES_LANG = 'nl' #dutch language code
+I18N_TEMPLATES_LANG = 'en' #same as default language code
+
+
+#THEME = 'greizgh/pelican-material' #needs more plugins first
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None

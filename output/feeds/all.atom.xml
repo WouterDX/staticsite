@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Jupyter tricks</title><link href="https://wouterdx.github.io/staticsite/" rel="alternate"></link><link href="https://wouterdx.github.io/staticsite/feeds/all.atom.xml" rel="self"></link><id>https://wouterdx.github.io/staticsite/</id><updated>2018-04-29T22:01:00+02:00</updated><entry><title>First Post - Part 1</title><link href="https://wouterdx.github.io/staticsite/first-post.html" rel="alternate"></link><published>2018-04-29T22:01:00+02:00</published><updated>2018-04-29T22:01:00+02:00</updated><author><name>Wouter Dierckx</name></author><id>tag:wouterdx.github.io,2018-04-29:/staticsite/first-post.html</id><summary type="html">&lt;p&gt;This is the first post in a series.&lt;/p&gt;</summary><content type="html">&lt;p&gt;This is the very first post!&lt;/p&gt;</content><category term="python"></category><category term="markdown"></category><category term="blog"></category></entry><entry><title>First Post - Part 4</title><link href="https://wouterdx.github.io/staticsite/fourth-post.html" rel="alternate"></link><published>2018-04-29T22:01:00+02:00</published><updated>2018-04-29T22:01:00+02:00</updated><author><name>Wouter Dierckx</name></author><id>tag:wouterdx.github.io,2018-04-29:/staticsite/fourth-post.html</id><summary type="html">&lt;p&gt;What, even more to add?&lt;/p&gt;</summary><content type="html">&lt;p&gt;Demonstration of tables.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;A markdown table&lt;/th&gt;
+&lt;th&gt;with sauce&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;should not&lt;/td&gt;
+&lt;td&gt;be spared&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;without&lt;/td&gt;
+&lt;td&gt;sufficient appetite&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;</content><category term="python"></category><category term="pelican"></category><category term="blog"></category><category term="tables"></category></entry><entry><title>First Post - Part 2</title><link href="https://wouterdx.github.io/staticsite/second-post.html" rel="alternate"></link><published>2018-04-29T22:01:00+02:00</published><updated>2018-04-29T22:01:00+02:00</updated><author><name>Wouter Dierckx</name></author><id>tag:wouterdx.github.io,2018-04-29:/staticsite/second-post.html</id><summary type="html">&lt;p&gt;Now we should be excited.&lt;/p&gt;</summary><content type="html">&lt;p&gt;Not the oldest post in the series!
+&lt;span class="videobox"&gt;
+                &lt;iframe width="640" height="390"
+                    src='https://www.youtube.com/embed/https://www.youtube.com/watch?v=Qq-5frjUfK0'
+                    frameborder='0' webkitAllowFullScreen mozallowfullscreen
+                    allowFullScreen&gt;
+                &lt;/iframe&gt;
+            &lt;/span&gt;&lt;/p&gt;</content><category term="python"></category><category term="markdown"></category><category term="blog"></category></entry><entry><title>First Post - Part 3</title><link href="https://wouterdx.github.io/staticsite/third-post.html" rel="alternate"></link><published>2018-04-29T22:01:00+02:00</published><updated>2018-04-29T22:01:00+02:00</updated><author><name>Wouter Dierckx</name></author><id>tag:wouterdx.github.io,2018-04-29:/staticsite/third-post.html</id><summary type="html">&lt;p&gt;All is gone and done.&lt;/p&gt;</summary><content type="html">&lt;p&gt;Finally the last post!&lt;/p&gt;
+&lt;p&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;h1 id="Demo-code-snippet"&gt;Demo code snippet&lt;a class="anchor-link" href="#Demo-code-snippet"&gt;&amp;#182;&lt;/a&gt;&lt;/h1&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing code_cell rendered"&gt;
+&lt;div class="input"&gt;
+&lt;div class="prompt input_prompt"&gt;In&amp;nbsp;[4]:&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+    &lt;div class="input_area"&gt;
+&lt;div class=" highlight hl-ipython3"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="c1"&gt;#toy code&lt;/span&gt;
+&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;math&lt;/span&gt;
+&lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;Life of PI:&lt;/span&gt;&lt;span class="se"&gt;\n&lt;/span&gt;&lt;span class="si"&gt;%.16f&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="o"&gt;%&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;math&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;pi&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="output_wrapper"&gt;
+&lt;div class="output"&gt;
+
+
+&lt;div class="output_area"&gt;
+
+&lt;div class="prompt"&gt;&lt;/div&gt;
+
+
+&lt;div class="output_subarea output_stream output_stdout output_text"&gt;
+&lt;pre&gt;Life of PI:
+3.1415926535897931
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+ 
+
+&lt;/p&gt;</content><category term="python"></category><category term="pelican"></category><category term="blog"></category></entry></feed>

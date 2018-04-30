@@ -33,7 +33,7 @@ CUSTOM_JS = 'static/js/custom.js'
 STATIC_PATHS = ['extra']
 EXTRA_PATH_METADATA = {
     'extra/custom.css': {'path': 'static/css/custom.css'},
-	'extra/custom.js': {'path': 'static/css/custom.js'}
+	'extra/custom.js': {'path': 'static/js/custom.js'},
 	}
 	
 
